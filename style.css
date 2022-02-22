@@ -1,0 +1,174 @@
+/* #292E6C, #4664AF, #18A5AC, #5CC09D */
+
+img {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 15%;
+  margin: auto;
+  text-align: center;
+}
+
+button{
+  font-family: copperplate;
+  border-color: #F0F8FF;
+  background: linear-gradient(-45deg, #ff6637, #e73c7e, #f8f415, #ff1818);
+  background-size: 400% 400%; 
+  animation: gradient 4s ease infinite; 
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  height: 3vh; 
+  margin: 0;
+	padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1, h2, h3, p {
+  font-family: copperplate;
+  color: black; 
+  text-shadow: 2px 2px gray;
+}
+
+body {
+  background: linear-gradient(-45deg, #292E6C, #4664AF, #18A5AC, #5CC09D);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: #333;
+  font-family: copperplate; 
+	font: 100% Lato, Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+  text-align: center;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* @-webkit-keyframes floatingLetters {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes floatingLetters {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes floatingLetters {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+@-moz-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+U {
+  -webkit-animation: floatingLetters 25s linear infinite, sideWays 2s ease-in-out, spin 25s linear infinite ease-in-out, infinite alternate;
+  -moz-animation: floatingLetters 25s linear infinite, sideWays 2s ease-in-out, spin 25s linear infinite ease-in-out, infinite alternate;
+  -animation-: floatingLetters 25s linear infinite, sideWays 2s ease-in-out, spin 25s linear infinite ease-in-out, infinite alternate;
+
+  left: -5%; 
+  right: 5% 
+}
+
+letter {
+  -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+} */
+
+
+
+
+
+
+/* https://codemyui.com/flying-letters-text-animation/  *t-/**
+

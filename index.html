@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+      </script>
+    
+	</script>
+  </head>
+  <body>
+    <h1>Word Unscrambler</h1>
+    <i>It's gonna take a while to load, please be patient! Reload if you need to.</i>
+    <br>
+    <br>
+    <input type="text" id="guess"></input>
+    <button onclick="checkWord()">Guess!</button>
+    <br>
+    <img src="loading-buffering.gif" id="loading">
+    <p id="loadingWord">Finding you a word...</p><p id="loadingDefinition">Finding you a definition...</p>
+    <h2 id="rightorwrong"></h2>
+    <h3 id="letters"></h3>
+    <p> Number of Definitions:</p>
+    <p id="defNum"></p>
+    <div>
+    <p>Definitions</p>
+    <div id="definitionPlace"></div>
+    <div>
+    <button id="newGame" onclick="getWord()">New Word</button>
+    <div>
+    <div>
+      <button onclick="showAnswer()">Show Answer</button>
+    <div>
+    <p id="wordDisclaimer">Your word was:</p>
+    <p id="word"></p>
+    <br>
+    <i>Words may be plural or in the wrong tense... if your word isn't working, consider other forms of that word...</i>
+    <script src="script.js"></script>
+  </body>
+</html>
